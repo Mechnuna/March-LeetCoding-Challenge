@@ -19,7 +19,7 @@ Explanation: Alice can only eat 6 / 2 = 3 candies. Since there are only 3 types,
 ```
 
 ```
- Example 2:
+Example 2:
 
 Input: candyType = [1,1,2,3]
 Output: 2
