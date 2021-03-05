@@ -36,7 +36,7 @@ n == candyType.length
 n is even.
 -105 <= candyType[i] <= 105
 
-========================================================================================
+====================================================================
 
 ### Set Mismatch
 
@@ -65,7 +65,7 @@ Constraints:
 1 <= nums[i] <= 104
 
 
-========================================================================================
+====================================================================
 
 ### Intersection of Two Linked Lists
 
@@ -85,7 +85,9 @@ Example 1:
 ![160_example_1_1](https://user-images.githubusercontent.com/66644979/110121040-ebef5e00-7dce-11eb-97b8-c3d823b994a1.png)
 
 Input: intersectVal = 8, listA = [4,1,8,4,5], listB = [5,6,1,8,4,5], skipA = 2, skipB = 3
+
 Output: Reference of the node with value = 8
+
 Input Explanation: The intersected node's value is 8 (note that this must not be 0 if the two lists intersect). From the head of A, it reads as [4,1,8,4,5]. From the head of B, it reads as [5,6,1,8,4,5]. There are 2 nodes before the intersected node in A; There are 3 nodes before the intersected node in B.
  
 
@@ -94,7 +96,9 @@ Example 2:
 ![160_example_2](https://user-images.githubusercontent.com/66644979/110121082-fad61080-7dce-11eb-9275-1e807e18a313.png)
 
 Input: intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
+
 Output: Reference of the node with value = 2
+
 Input Explanation: The intersected node's value is 2 (note that this must not be 0 if the two lists intersect). From the head of A, it reads as [1,9,1,2,4]. From the head of B, it reads as [3,2,4]. There are 3 nodes before the intersected node in A; There are 1 node before the intersected node in B.
  
 
@@ -103,8 +107,11 @@ Example 3:
 ![160_example_3](https://user-images.githubusercontent.com/66644979/110121097-ff9ac480-7dce-11eb-8732-a982b1b5052c.png)
 
 Input: intersectVal = 0, listA = [2,6,4], listB = [1,5], skipA = 3, skipB = 2
+
 Output: null
+
 Input Explanation: From the head of A, it reads as [2,6,4]. From the head of B, it reads as [1,5]. Since the two lists do not intersect, intersectVal must be 0, while skipA and skipB can be arbitrary values.
+
 Explanation: The two lists do not intersect, so return null.
  
 
