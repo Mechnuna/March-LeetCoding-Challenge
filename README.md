@@ -10,11 +10,13 @@ The doctor advised Alice to only eat n / 2 of the candies she has (n is always e
 Given the integer array candyType of length n, return the maximum number of different types of candies she can eat if she only eats n / 2 of them.
 
  
-` Example 1:
+``` 
+Example 1:
 
 Input: candyType = [1,1,2,2,3,3]
 Output: 3
-Explanation: Alice can only eat 6 / 2 = 3 candies. Since there are only 3 types, she can eat one of each type.`
+Explanation: Alice can only eat 6 / 2 = 3 candies. Since there are only 3 types, she can eat one of each type. 
+```
 
 ` Example 2:
 
